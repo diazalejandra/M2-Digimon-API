@@ -41,7 +41,7 @@ $(document).ready(function () {
                     for (let index = 0; index < digimons.length; index++) {
                         const digimon = digimons[index];
                         digimonList = digimonList + `
-                        <div class="card text-bg-info m-3" style="width: 18rem;">
+                        <div class="card text-bg-info m-3" style="width: 18rem;  display: inline-block">
                             <img src="${digimon.img}" class="card-img-top" alt="${digimon.name}">
                             <div class="card-body text-center">
                                 <h5 class="card-title">${digimon.name}</h5>
